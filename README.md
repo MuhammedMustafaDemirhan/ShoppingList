@@ -1,12 +1,48 @@
-# React + Vite
+# Shopping List 🛒
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, React öğrenme sürecinde geliştirdiğim basit bir alışveriş listesi uygulamasıdır. Kullanıcıların listeye ürün ekleyip silebildiği, tamamlananları işaretleyebildiği ve çeşitli filtreleme seçeneklerini kullanabildiği temel bir yapılacaklar listesi mantığında çalışır.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📝 Yeni ürün ekleme  
+- ❌ Ürün silme  
+- ✅ Tamamlandı / tamamlanmadı durumu  
+- 🔍 Filtreleme: Tüm ürünler, tamamlananlar, tamamlanmayanlar  
+- 🧹 Tümünü temizleme  
+- 📱 Bootstrap ile responsive tasarım  
+- ⚛️ React (Functional Components, useState, props)
 
-## Expanding the ESLint configuration
+## Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (useState)
+- Bootstrap 5
+- CSS
+
+## Ekran Görüntüsü
+![Uygulama Görseli](./public/Anasayfa.png)
+
+## Kurulum ve Çalıştırma
+
+1. Depoyu klonlayın:
+   ```bash
+   git clone https://github.com/MuhammedMustafaDemirhan/ShoppingList.git
+   cd shopping-list
+
+2. Bağımlılıkları yükleyin:
+   ```bash
+   npm install
+
+3. Uygulamayı başlatın:
+   ```bash
+   npm run dev
+
+Not:
+Bu proje, React öğrenim sürecimde geliştirdiğim ilk projedir. Basit yapısıyla temel kavramları anlamak için faydalıdır. Geliştirmeye açıktır.
+
+## İletişim
+
+Her türlü soru, öneri veya geri bildirim için benimle iletişime geçebilirsiniz:
+
+- 📧 **E-posta:** [muhammedmustafademirhan@gmail.com](mailto:muhammedmustafademirhan@gmail.com)  
+- 💼 **LinkedIn:** [linkedin.com/in/muhammedmustafademirhan](https://www.linkedin.com/in/muhammedmustafademirhan/)  
+- 📸 **Instagram:** [instagram.com/mami.dmrhn](https://www.instagram.com/mami.dmrhn/)
